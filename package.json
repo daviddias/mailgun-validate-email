@@ -1,0 +1,30 @@
+{
+  "name": "mailgun-validator",
+  "version": "0.0.0",
+  "description": "validate email addresses with mailgun API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diasdavid/mailgun-validator.git"
+  },
+  "keywords": [
+    "mailgun",
+    "email",
+    "validate",
+    "address",
+    "spam",
+    "scam",
+    "valid"
+  ],
+  "author": "David Dias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diasdavid/mailgun-validator/issues"
+  },
+  "dependencies": {
+    "request": "~2.25.0"
+  }
+}
