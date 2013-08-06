@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/DavidDias/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+12 verbose folder .
+13 info prepublish mailgun-validator@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/DavidDias/.npm/1f1177db-tar.lock
+16 silly lockFile 3e38d025-68733-0-6535079590976238-tmp-tgz tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+17 verbose lock tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz /Users/DavidDias/.npm/3e38d025-68733-0-6535079590976238-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 3e38d025-68733-0-6535079590976238-tmp-tgz tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+21 silly lockFile 3e38d025-68733-0-6535079590976238-tmp-tgz tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+22 verbose tar unpack /var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+23 silly lockFile c34bf675-68733-0-6535079590976238-package tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+24 verbose lock tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package /Users/DavidDias/.npm/c34bf675-68733-0-6535079590976238-package.lock
+25 silly lockFile 3e38d025-68733-0-6535079590976238-tmp-tgz tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+26 verbose lock tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz /Users/DavidDias/.npm/3e38d025-68733-0-6535079590976238-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry index.js
+32 silly lockFile c34bf675-68733-0-6535079590976238-package tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+33 silly lockFile c34bf675-68733-0-6535079590976238-package tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+34 silly lockFile 3e38d025-68733-0-6535079590976238-tmp-tgz tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+35 silly lockFile 3e38d025-68733-0-6535079590976238-tmp-tgz tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/tmp.tgz
+36 verbose tar pack [ '/Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz',
+36 verbose tar pack   '/var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package' ]
+37 verbose tarball /Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+38 verbose folder /var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+39 silly lockFile c34bf675-68733-0-6535079590976238-package tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+40 verbose lock tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package /Users/DavidDias/.npm/c34bf675-68733-0-6535079590976238-package.lock
+41 silly lockFile b75db5ca-lgun-validator-0-0-0-package-tgz tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+42 verbose lock tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz /Users/DavidDias/.npm/b75db5ca-lgun-validator-0-0-0-package-tgz.lock
+43 silly lockFile c34bf675-68733-0-6535079590976238-package tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+44 silly lockFile c34bf675-68733-0-6535079590976238-package tar:///var/folders/sv/w11mg7590sl6qzfnsl10w0ch0000gn/T/npm-21508/1375822668733-0.6535079590976238/package
+45 silly lockFile b75db5ca-lgun-validator-0-0-0-package-tgz tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+46 silly lockFile b75db5ca-lgun-validator-0-0-0-package-tgz tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+47 silly lockFile ff7a978c--mailgun-validator-0-0-0-package /Users/DavidDias/.npm/mailgun-validator/0.0.0/package
+48 verbose lock /Users/DavidDias/.npm/mailgun-validator/0.0.0/package /Users/DavidDias/.npm/ff7a978c--mailgun-validator-0-0-0-package.lock
+49 silly lockFile ff7a978c--mailgun-validator-0-0-0-package /Users/DavidDias/.npm/mailgun-validator/0.0.0/package
+50 silly lockFile ff7a978c--mailgun-validator-0-0-0-package /Users/DavidDias/.npm/mailgun-validator/0.0.0/package
+51 verbose tar unpack /Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+52 silly lockFile 12141988--mailgun-validator-0-0-0-package tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package
+53 verbose lock tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package /Users/DavidDias/.npm/12141988--mailgun-validator-0-0-0-package.lock
+54 silly lockFile b75db5ca-lgun-validator-0-0-0-package-tgz tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+55 verbose lock tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz /Users/DavidDias/.npm/b75db5ca-lgun-validator-0-0-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry index.js
+61 silly lockFile 12141988--mailgun-validator-0-0-0-package tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package
+62 silly lockFile 12141988--mailgun-validator-0-0-0-package tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package
+63 silly lockFile b75db5ca-lgun-validator-0-0-0-package-tgz tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+64 silly lockFile b75db5ca-lgun-validator-0-0-0-package-tgz tar:///Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz
+65 verbose chmod /Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz 644
+66 verbose chown /Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'mailgun-validator',
+69 silly publish   version: '0.0.0',
+69 silly publish   description: 'validate email addresses with mailgun API',
+69 silly publish   main: 'index.js',
+69 silly publish   scripts: { test: 'node index.js' },
+69 silly publish   repository:
+69 silly publish    { type: 'git',
+69 silly publish      url: 'git://github.com/diasdavid/mailgun-validator.git' },
+69 silly publish   keywords:
+69 silly publish    [ 'mailgun',
+69 silly publish      'email',
+69 silly publish      'validate',
+69 silly publish      'address',
+69 silly publish      'spam',
+69 silly publish      'scam',
+69 silly publish      'valid' ],
+69 silly publish   author: { name: 'David Dias' },
+69 silly publish   license: 'MIT',
+69 silly publish   bugs: { url: 'https://github.com/diasdavid/mailgun-validator/issues' },
+69 silly publish   dependencies: { request: '~2.25.0' },
+69 silly publish   readme: 'mailgun-validator\n=================\n\n\nSuper tiny wrapper of email validation API, this can be most useful in form validation to avoid spam\n\n### How to use\n\n```\nvar validator = require(\'mailgun-validator\')\nvalidator("banana@papaia.com", function (err, result){\n  ...\n})\n```\n\nOutput will be something like\n\n```\n{\n  "is_valid": true,\n  "parts": {\n    "local_part": "banana",\n    "domain": "papaia.com",\n    "display_name": null\n  },\n  "address": "banana@papaia.com",\n  "did_you_mean": null\n}\n```\n\n\n\n\n## License\n\n(The MIT License)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'mailgun-validator@0.0.0',
+69 silly publish   dist: { shasum: '86c6bf84cdf447bf34d0b2783147462b77e404e1' },
+69 silly publish   _from: '.' }
+70 verbose url raw mailgun-validator
+71 verbose url resolving [ 'https://registry.npmjs.org/', './mailgun-validator' ]
+72 verbose url resolved https://registry.npmjs.org/mailgun-validator
+73 info trying registry request attempt 1 at 21:57:51
+74 http PUT https://registry.npmjs.org/mailgun-validator
+75 http 409 https://registry.npmjs.org/mailgun-validator
+76 verbose url raw mailgun-validator
+77 verbose url resolving [ 'https://registry.npmjs.org/', './mailgun-validator' ]
+78 verbose url resolved https://registry.npmjs.org/mailgun-validator
+79 info trying registry request attempt 1 at 21:57:52
+80 http GET https://registry.npmjs.org/mailgun-validator
+81 http 200 https://registry.npmjs.org/mailgun-validator
+82 verbose uploading [ 'mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5',
+82 verbose uploading   '/Users/DavidDias/.npm/mailgun-validator/0.0.0/package.tgz' ]
+83 verbose url raw mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+84 verbose url resolving [ 'https://registry.npmjs.org/',
+84 verbose url resolving   './mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5' ]
+85 verbose url resolved https://registry.npmjs.org/mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+86 info trying registry request attempt 1 at 21:57:53
+87 http PUT https://registry.npmjs.org/mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+88 http 403 https://registry.npmjs.org/mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+89 info trying registry request attempt 1 at 21:57:55
+90 http PUT https://registry.npmjs.org/mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+91 http 403 https://registry.npmjs.org/mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+92 error publish Error uploading package
+93 error Error: forbidden user: daviddias not authorized to modify mailgun-validator
+93 error Added: _attachments.mailgun-validator-0.0.0.tgz: mailgun-validator/-/mailgun-validator-0.0.0.tgz/-rev/3-4a10d117b83f1f10abb60c3ebdd175f5
+93 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+93 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/index.js:148:22)
+93 error     at Request.EventEmitter.emit (events.js:98:17)
+93 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:876:14)
+93 error     at Request.EventEmitter.emit (events.js:117:20)
+93 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:827:12)
+93 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+93 error     at _stream_readable.js:910:16
+93 error     at process._tickCallback (node.js:415:13)
+94 error If you need help, you may report this log at:
+94 error     <http://github.com/isaacs/npm/issues>
+94 error or email it to:
+94 error     <npm-@googlegroups.com>
+95 error System Darwin 12.4.0
+96 error command "node" "/usr/local/bin/npm" "publish"
+97 error cwd /Users/DavidDias/Dropbox/Code/thenodefirm/mailgun-validator
+98 error node -v v0.10.13
+99 error npm -v 1.3.2
+100 verbose exit [ 1, true ]

@@ -1,4 +1,4 @@
-mailgun-validator
+mailgun-validate-email
 =================
 
 
@@ -7,7 +7,7 @@ Super tiny wrapper of email validation API, this can be most useful in form vali
 ### How to use
 
 ```
-var validator = require('mailgun-validator')
+var validator = require('mailgun-validate-email')
 validator("banana@papaia.com", function (err, result){
   ...
 })
