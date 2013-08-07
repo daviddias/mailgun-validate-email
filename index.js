@@ -13,9 +13,7 @@ var validator = function (email, cb) {
   request(options, function (err, result){
     if(err) {cb(err)}
     //this body is not a real JSON object  
-    if(result.request.response.body.split(":")[1].split(",")[0].replace(" ","") === 'false'){
-      cb(err, false)    
-    } else {cb(err, true)}  
+    cb(err, JSON.parse(result.request.response.body))
   })
 }
 
