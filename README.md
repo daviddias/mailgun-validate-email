@@ -6,7 +6,7 @@ Super tiny wrapper of email validation API, this can be most useful in form vali
 
 ### How to use
 
-```
+```javascript
 var validator = require('mailgun-validate-email')
 validator("banana@papaia.com", function (err, result){
   ...
@@ -15,19 +15,13 @@ validator("banana@papaia.com", function (err, result){
 
 Output will be something like
 
+```javascript
+true
 ```
-{
-  "is_valid": true,
-  "parts": {
-    "local_part": "banana",
-    "domain": "papaia.com",
-    "display_name": null
-  },
-  "address": "banana@papaia.com",
-  "did_you_mean": null
-}
+or
+```javascript
+false
 ```
-
 
 
 
