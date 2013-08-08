@@ -2,7 +2,11 @@ mailgun-validate-email
 =================
 
 
-Super tiny wrapper of email validation API, this can be most useful in form validation to avoid spam
+Super tiny wrapper of email validation API from [Mailgun](http://www.mailgun.com/), this can be most useful in form validation to avoid spam
+
+### Disclaimer
+This module uses a third party service from Mailgun to be able to verify the validy of the email, you can all the info in their [API docs](http://documentation.mailgun.com/api-email-validation.html)  
+Emails are securely transmitted using Public Key Cryptography
 
 ### How to use
 
