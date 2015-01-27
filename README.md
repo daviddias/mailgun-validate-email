@@ -17,7 +17,7 @@ Emails are securely transmitted using Public Key Cryptography
 ### How to use
 
 ```javascript
-var validator = require('mailgun-validate-email')
+var validator = require('mailgun-validate-email')('INSERT-YOUR-MAILGUN-PUBKEY-HERE')
 validator("banana@papaia.com", function (err, result){
   ...
 })

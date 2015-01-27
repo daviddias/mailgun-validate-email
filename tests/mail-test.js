@@ -7,8 +7,8 @@ var test = lab.test;
 var before = lab.before;
 var after = lab.after;
 var expect = Code.expect;
-
-var validator = require('./../src/index.js');
+var apiKey = 'pubkey-5ogiflzbnjrljiky49qxsiozqef5jxp7';
+var validator = require('./../src/index.js')(apiKey);
 
 experiment(': ', function() {
 
