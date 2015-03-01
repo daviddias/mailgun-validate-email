@@ -11,6 +11,7 @@ Emails are *securely transmitted* using Public Key Cryptography
 
 # Badgers
 [![NPM](https://nodei.co/npm/mailgun-validate-email.png?downloads=true&stars=true)](https://nodei.co/npm/mailgun-validate-email/)
+
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/diasdavid/mailgun-validate-email?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Dependency Status](https://david-dm.org/diasdavid/mailgun-validate-email.svg)](https://david-dm.org/diasdavid/mailgun-validate-email)
 [![Build Status](https://travis-ci.org/diasdavid/mailgun-validate-email.svg)](https://travis-ci.org/diasdavid/mailgun-validate-email)
