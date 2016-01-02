@@ -1,7 +1,7 @@
-var request = require('request');
+var request = require('request')
 
-module.exports = function(apiKey) {
-  return function validator(email, cb) {
+module.exports = function (apiKey) {
+  return function validator (email, cb) {
     var options = {
       url: 'https://api.mailgun.net/v2/address/validate',
       method: 'GET',
@@ -12,12 +12,12 @@ module.exports = function(apiKey) {
         username: 'api',
         password: apiKey
       }
-    };
-    request(options, function(err, result) {
+    }
+    request(options, function (err, result) {
       if (err) {
-        return cb(err);
+        return cb(err)
       }
-      cb(null, JSON.parse(result.request.response.body));
-    });
+      cb(null, JSON.parse(result.request.response.body))
+    })
   }
-};
+}
