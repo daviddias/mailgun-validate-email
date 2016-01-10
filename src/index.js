@@ -13,11 +13,16 @@ module.exports = function (apiKey) {
         password: apiKey
       }
     }
-    request(options, function (err, result) {
+    request(options, function (err, res) {
       if (err) {
         return cb(err)
       }
-      cb(null, JSON.parse(result.request.response.body))
+      try {
+        var result = JSON.parse(res.request.response.body)
+        cb(null, result)
+      } catch (err) {
+        cb(err)
+      }
     })
   }
 }
