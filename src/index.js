@@ -17,6 +17,9 @@ module.exports = function (apiKey) {
       if (err) {
         return cb(err)
       }
+      if (res.request.response.body.length === 0) {
+        return cb(new Error('mailgun replied with empty body'))
+      }
       try {
         var result = JSON.parse(res.request.response.body)
         cb(null, result)
