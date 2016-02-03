@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard",
     "test": "node ./node_modules/.bin/lab -r tap tests/*-test.js | ./node_modules/.bin/tap-spec",
-    "test-cov": "node ./node_modules/.bin/lab -t 83 tests/*-test.js",
+    "test-cov": "node ./node_modules/.bin/lab -t 75 tests/*-test.js",
     "test-cov-html": "node ./node_modules/.bin/lab -r html -o coverage.html tests/*-test.js"
   },
   "pre-commit": [

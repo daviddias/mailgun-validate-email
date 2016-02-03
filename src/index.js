@@ -1,4 +1,4 @@
-var request = require('request');
+var request = require('request')
 
 module.exports = function (apiKey) {
   return function validator (email, cb) {
@@ -18,7 +18,7 @@ module.exports = function (apiKey) {
       if (err) {
         return cb(err)
       }
-      if (body.length == 0 || res.statusCode !== 200) {
+      if (body.length === 0 || res.statusCode !== 200) {
         return cb(new Error('mailgun replied with empty body'))
       }
       try {
