@@ -1,30 +1,30 @@
-var request = require('request')
+var request = require('request');
 
 module.exports = function (apiKey) {
   return function validator (email, cb) {
     var options = {
-      url: 'https://api.mailgun.net/v2/address/validate',
+      url: 'https://api.mailgun.net/v3/address/validate',
       method: 'GET',
+      timeout: 1500,
       qs: {
-        address: email
+        address: email || ''
       },
       auth: {
         username: 'api',
-        password: apiKey
+        password: apiKey || ''
       }
     }
-    request(options, function (err, res) {
+    request(options, function (err, res, body) {
       if (err) {
         return cb(err)
       }
-      if (res.request.response.body.length === 0) {
+      if (body.length == 0 || res.statusCode !== 200) {
         return cb(new Error('mailgun replied with empty body'))
       }
       try {
-        var result = JSON.parse(res.request.response.body)
-        cb(null, result)
-      } catch (err) {
-        cb(err)
+        return cb(null, JSON.parse(body))
+      } catch (_err) {
+        return cb(_err)
       }
     })
   }
