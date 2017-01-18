@@ -36,11 +36,11 @@
     "request": "^2.25.0"
   },
   "devDependencies": {
-    "code": "^1.2.1",
-    "jscs": "^1.7.3",
+    "code": "^4.0.0",
+    "jscs": "^3.0.7",
     "jshint": "^2.5.10",
-    "lab": "^5.0.3",
+    "lab": "^11.2.2",
     "pre-commit": "^1.1.2",
-    "tap-spec": "^2.1.0"
+    "tap-spec": "^4.1.1"
   }
 }
